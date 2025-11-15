@@ -490,14 +490,7 @@ volumes:
 
 ---
 
-**Built with ❤️ by the Sales CRM Team**
-    name TEXT NOT NULL,
-    email VARCHAR(255) UNIQUE NOT NULL,
-    tier_level INTEGER NOT NULL, -- 1=Admin, 2=Area Manager, 3=Store Manager, 4=Sales Rep
-    company_id UUID,
-    created_at TIMESTAMPTZ DEFAULT now()
-);
-```
+
 
 #### Leads
 ```sql
