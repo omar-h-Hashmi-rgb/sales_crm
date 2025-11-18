@@ -1,0 +1,24 @@
+{
+  "name": "sales-crm",
+  "version": "1.0.0",
+  "description": "> A comprehensive Sales CRM application built with Node.js, Express, React, and PostgreSQL for managing leads, assignments, and tracking conversions.",
+  "main": "test-api.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omar-h-Hashmi-rgb/sales_crm.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/omar-h-Hashmi-rgb/sales_crm/issues"
+  },
+  "homepage": "https://github.com/omar-h-Hashmi-rgb/sales_crm#readme",
+  "dependencies": {
+    "axios": "^1.13.2"
+  }
+}

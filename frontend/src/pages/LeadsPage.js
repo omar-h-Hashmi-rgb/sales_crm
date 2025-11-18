@@ -8,13 +8,11 @@ import GroupedLeadsView from '../components/Leads/GroupedLeadsView';
 import LeadDetailsModal from '../components/Leads/LeadDetailsModal';
 import LeadAssignModal from '../components/Leads/LeadAssignModal';
 import Pagination from '../components/Common/Pagination';
-import LoadingSpinner from '../components/Common/LoadingSpinner';
 import toast from 'react-hot-toast';
 import {
   ViewColumnsIcon,
   RectangleGroupIcon,
-  PlusIcon,
-  AdjustmentsHorizontalIcon
+  PlusIcon
 } from '@heroicons/react/24/outline';
 
 const LeadsPage = () => {

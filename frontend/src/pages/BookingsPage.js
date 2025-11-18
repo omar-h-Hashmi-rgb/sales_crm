@@ -15,10 +15,7 @@ import {
   EnvelopeIcon,
   MapPinIcon,
   ClockIcon,
-  TagIcon,
-  UserIcon,
-  MagnifyingGlassIcon,
-  FunnelIcon
+  MagnifyingGlassIcon
 } from '@heroicons/react/24/outline';
 
 const BookingsPage = () => {

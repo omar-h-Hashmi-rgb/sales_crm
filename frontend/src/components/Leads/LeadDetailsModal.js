@@ -21,7 +21,7 @@ import {
 } from '@heroicons/react/24/outline';
 
 const LeadDetailsModal = ({ isOpen, onClose, lead, onEdit, onAssign, onStatusUpdate }) => {
-  const { canUpdateStatus, canAssignLeads, canEditLead, user } = useAuth();
+  const { canUpdateStatus, canAssignLeads, canEditLead } = useAuth();
   const [comments, setComments] = useState([]);
   const [history, setHistory] = useState([]);
   const [newComment, setNewComment] = useState('');

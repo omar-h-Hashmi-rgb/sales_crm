@@ -6,13 +6,11 @@ import LoadingSpinner from '../components/Common/LoadingSpinner';
 import StatusBadge from '../components/Common/StatusBadge';
 import {
   UsersIcon,
-  CalendarIcon,
   ChartBarIcon,
   ArrowTrendingUpIcon,
   ClockIcon,
   StarIcon,
   PhoneIcon,
-  CheckCircleIcon,
   ExclamationTriangleIcon,
   ArrowRightIcon
 } from '@heroicons/react/24/outline';
